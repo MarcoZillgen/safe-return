@@ -1,4 +1,4 @@
-# Safe-Result
+# Safe-Return
 
 A lightweight, zero-dependency `Result` implementation for TypeScript designed to enforce compile-time error handling and eliminate messy `try/catch` nesting.
 
