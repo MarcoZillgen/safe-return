@@ -7,13 +7,13 @@ A lightweight, zero-dependency `Result` implementation for TypeScript designed t
 Install directly via Bun:
 
 ```bash
-bun add github:marcozillgen/safe-result
+bun add github:marcozillgen/safe-return
 ```
 
 ## Examples
 
 ```ts
-import { ok, err, type Result } from "safe-result";
+import { ok, err, type Result } from "safe-return";
 
 function max(a: number, b: number): Result<number, string> {
   if (a === b) return err(`both values are ${a}`)
@@ -32,7 +32,7 @@ console.log(result.res); // Type: number (10 / 2 = 5)
 ```
 
 ```ts
-import { fromPromise, ok, err, type Result } from "safe-result";
+import { fromPromise, ok, err, type Result } from "safe-return";
 
 async function fetchUser(id: string): Promise<Result<User, string>> {
   const result = await fromPromise(db.user.findUnique({ where: { id } }));

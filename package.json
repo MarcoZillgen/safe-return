@@ -1,5 +1,5 @@
 {
-	"name": "safe-result",
+	"name": "safe-return",
 	"version": "1.0.0",
 	"description": "Safe error handling for TypeScript using result object",
 	"main": "./index.ts",
