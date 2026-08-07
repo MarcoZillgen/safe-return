@@ -1,0 +1,16 @@
+{
+	"name": "safe-result",
+	"version": "1.0.0",
+	"description": "Safe error handling for TypeScript using result object",
+	"main": "./index.ts",
+	"types": "./index.ts",
+	"files": [
+		"index.ts"
+	],
+	"keywords": [
+		"error-handling",
+		"typescript",
+		"result",
+		"tuple"
+	]
+}
