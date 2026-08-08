@@ -4,6 +4,7 @@
 	"description": "Safe error handling for TypeScript using result object",
 	"main": "./index.ts",
 	"types": "./index.ts",
+	"module": "./index.ts",
 	"files": [
 		"index.ts"
 	],
